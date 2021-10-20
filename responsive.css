@@ -5,6 +5,10 @@
         text-align: center;
     }
 
+    .isiatas {
+        font-size: smaller;
+    }
+    
     .pembukakanan {
         display: none;
     }
