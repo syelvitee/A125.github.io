@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(6, 192, 192, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-family: monospace;
+    font-size: large;
+}
+
+.pembukakiri {
+    float: left;
+}
+
+.pembukakanan {
+    float: right;
+    margin-right: 0;
+}
+
+.pembukakanan a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: right;
+    transition: all 1s;
+}
+
+.pembukakanan a:hover {
+    background-color: rgb(190, 248, 250, 0.5);
+}
+
+.menu-icon {
+    display: none;
+}
+.logo {
+    width: 100px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(wallpaper2.jpg);
+    background-size: cover;
+    background-color: rgba(31, 112, 107, 0.3);
+}
+
+.clear {
+    clear: left;
+}
+
+.isiatas {
+    padding: 80px 50px;
+    text-align: center;
+    color: white;
+    font-family:monospace;
+}
+
+.isiatas span {
+    color:yellow;
+}
+
+.nama {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.lisa {
+    width: 50%;
+    float: left;
+}
+
+.lisa img {
+    height: 200px;
+    position: relative;
+}
+
+.lisa a {
+    color: white;
+    font-size: 25px;
+}
+
+.lisa p {
+    color: white;    
+    font-size: 15px;    
+}
+
+.lisa a:hover {
+    background-color: rgb(190, 248, 250, 0.5);
+}
+
+.syelvi {
+    width: 50%;
+    float: left;
+}
+.syelvi img {
+    height: 200px;
+    position: relative;
+}
+
+.syelvi a {
+    color: white;
+    font-size: 25px;
+}
+
+.syelvi p{
+    color: white;
+    font-size: 15px;    
+}
+
+.syelvi a:hover {
+    background-color: rgb(190, 248, 250, 0.5);
+}
+
+.isitengah{
+    text-align: center;
+    color: yellow;
+}
+
+.ju {
+    color: white;
+    text-align: center;
+}
+
+.ju p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.telegram {
+    margin-right: 10px;
+    background-color: blue;
+}
+
+.instagram {
+    background-color: crimson;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+  
+footer p {
+    color: #b3aeb5;
+    font-size: 20px;
+}
